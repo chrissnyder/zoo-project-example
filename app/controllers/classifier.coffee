@@ -7,6 +7,9 @@ User = require 'zooniverse/models/user'
 class Classifier extends Spine.Controller
   template: require '../views/classifier'
 
+  elements:
+    '#element': 'ele'
+
   events:
     'click .task': 'onDoTask'
     'click .finish': 'onFinishTask'

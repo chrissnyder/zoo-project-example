@@ -4,12 +4,12 @@
   "dependencies": {
     "es5-shimify": "~0.0.1",
     "json2ify": "~0.0.3",
-    "haw": "0.0.7",
-    "publisssh": "git://github.com/brian-c/publisssh.git",
-    "zootorial": "git://github.com/brian-c/zootorial.git#new-features",
-    "zooniverse": "git://github.com/zooniverse/Zooniverse.git#no-deps",
     "spine": "~1.1.0",
-    "t7e": "~0.1.3"
+    "zooniverse": "~0.3.7",
+    "zootorial": "~0.4.5",
+    "publisssh": "~0.2.3",
+    "haw": "~0.2.15",
+    "t7e": "~0.2.3"
   },
   "scripts": {
     "start": "haw serve",
